@@ -1,0 +1,44 @@
+html
+{
+	height: 99%;
+}
+
+body {
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.box{
+	order: 1;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+
+}
+.box h1{
+	order: 1;
+	border-bottom-style: solid;
+	border-color: black;
+	margin-bottom: 0px;
+}
+.box h2{
+	order: 2;
+}
+ul
+{
+	order: 2;
+	width: 30%;
+	display: inherit;	
+	justify-content: space-between;
+
+}
+li.twitch
+{
+	list-style-image: url(icons/GlitchIcon_Purple_24px.png);
+	list-style-type: none;
+	font-size: 24px;
+	text-align: top-left;
+}
