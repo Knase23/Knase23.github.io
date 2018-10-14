@@ -10,35 +10,48 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+.info {
+	width: 40%;
+}
 
 .box{
 	order: 1;
 	display: flex;
 	flex-flow: column;
 	text-align: center;
-
+	align-content: center;
 }
 .box h1{
 	order: 1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	align-self: center;
+	padding-left: 10%;
+	padding-right: 10%;
 	border-bottom-style: solid;
-	border-color: black;
-	margin-bottom: 0px;
+	text-decoration: underline;
 }
 .box h2{
 	order: 2;
+	margin-top: 5px;
 }
 ul
 {
 	order: 2;
-	width: 30%;
-	display: inherit;	
+	padding: 0px;
+	display: flex;
 	justify-content: space-between;
-
-}
-li.twitch
-{
-	list-style-image: url(icons/GlitchIcon_Purple_24px.png);
 	list-style-type: none;
-	font-size: 24px;
-	text-align: top-left;
+}
+.twitchName
+{
+	font-size: 27px;
+	text-decoration: none;
+	color: #353535;
+}
+.twitchName:visited
+{
+	text-decoration: none;
+	color: #757575;
 }
