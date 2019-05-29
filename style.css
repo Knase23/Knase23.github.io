@@ -41,17 +41,16 @@ ul
 	order: 2;
 	padding: 0px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	list-style-type: none;
 }
-.twitchName
+.socialIcon img
 {
-	font-size: 27px;
-	text-decoration: none;
-	color: #353535;
+	height: 64px;
+	width: 64px;
 }
-.twitchName:visited
+.socialIcon img
 {
-	text-decoration: none;
-	color: #757575;
+	height: 64px;
+	width: 64px;
 }
