@@ -9,16 +9,22 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-image: url(Backgrounds/LastRites/LastRitesBild.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
 }
 .info {
 	width: 40%;
+	background-color: rgba(128,128,128,0.8);
 }
-
 .box{
 	order: 1;
 	display: flex;
 	flex-flow: column;
 	text-align: center;
+	color:  black;
+	text-shadow: 1px 1px 20px white;
 	align-content: center;
 }
 .box h1{
@@ -48,9 +54,5 @@ ul
 {
 	height: 64px;
 	width: 64px;
-}
-.socialIcon img
-{
-	height: 64px;
-	width: 64px;
+	background-color: white;
 }
